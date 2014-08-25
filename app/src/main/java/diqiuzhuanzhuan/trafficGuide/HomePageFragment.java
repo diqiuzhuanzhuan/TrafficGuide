@@ -1,5 +1,6 @@
 package diqiuzhuanzhuan.trafficGuide;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -28,6 +29,8 @@ public class HomePageFragment extends Fragment {
         mGifView = (GifView)mView.findViewById(R.id.fragment_home_page);
         mGifView.setGifImage(R.raw.train);
         mGifView.setLoopAnimation();
+        Intent intent = new Intent(getActivity(), LocationService.class);
+        getActivity().startService(intent);
     }
 
     @Override
