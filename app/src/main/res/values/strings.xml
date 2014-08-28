@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">NavDrawerTest</string>
+    <string name="app_name">TrafficGuide</string>
     <string name="title_section1">设置</string>
     <string name="title_section2">马龙是最帅的</string>
     <string name="title_section3">哥哥龙就是帅</string>
